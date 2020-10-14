@@ -252,3 +252,13 @@ body {
 labels : gras, alignés à droite et largeur de 30%
 input (sauf checkbox radio): largeur de 70%, au focus : couleur fond au choix; */
 
+@media screen and (max-width: 640px) {
+	body {
+		background-image: none;
+		background-color: #f72;
+	}
+
+	#cast img {
+		display: none;
+	}
+}

@@ -1,0 +1,68 @@
+body {
+		background-color: yellow;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+
+	#img>img {
+		width: 50%;
+	}
+
+	#img {
+		text-align: center;
+	}
+
+	#head {
+		border: solid;
+		text-align: center;
+		margin-bottom: 1rem;
+		border-radius: 25%;
+		background-color: white;
+	}
+
+	#prc {
+		border: solid;
+		margin-top: 1rem;
+		border-radius: 17% 0 17%;
+		background-color: grey;
+	}
+
+	
+
+	#prc>h2 {
+		text-align: center;
+	}
+
+	#qlt {
+		border: solid;
+		margin-top: 1rem;
+		border-radius: 0 17% 0 17%;
+		background-color: grey;
+	}
+
+	#qlt>h2 {
+		text-align: center;
+	}
+
+	section>#obj {
+		text-align: center;
+		border: solid;
+		margin-top: 1rem;
+		padding: 2rem;
+		border-radius: 25%;
+		background-color: white;
+	}
+
+	#foot {
+		background-color: black;
+		color: white;
+	}
+
+	#foot>h1 {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 640px) {
+
+
+}

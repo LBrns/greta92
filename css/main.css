@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background: fixed url(../pics/montagne.jpg) no-repeat;
+}
+
+#wrapper {
+	background-color: rgba(255, 255, 255, 0.5);
+	height:
+}
+
+#banner {
+	background: url(../pics/ciel.jpg);
+	background-size: cover;
+	text-align: center;
+	height: 7rem;
+}
+
+#title {
+	height: 5rem;
+	line-height: 5rem;
+}
+
+#punchline {
+	height: 2rem;
+	line-height: 2rem;
+}
+
+#menu>ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	color: #00f;
+	display: inline-block;
+	border: #00f solid .25rem;
+	margin: .5rem .25rem;
+	padding: .25rem;
+	background-color: #fff;
+	text-decoration: none;
+	transition: all 1s linear;
+}
+
+#menu a:hover {
+	border: solid 0.25rem #fff;
+	color: #fff;
+	background-color: #00f;
+}
+
+#cast {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#cast>figure {
+	margin: .5rem;
+}
+
+#team figcaption {
+	text-align: center;
+}
+
+.rounded {
+	border-radius: 50%;
+	border: solid #fff .5rem;
+}
+
+#team h1 {
+	text-align: center;
+	margin-bottom: 1rem;
+	margin-top :;
+}
+
+#projects h2 {
+	/*width: 15%;*/
+	border: solid blue .5rem;
+	margin: 1rem;
+	padding: .25rem;
+	text-align: center;
+}
+
+#link {
+	font-size: 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+#link article {
+	border: solid black .5rem;
+	width: 30%;
+	height: 10rem;
+	position: relative;
+}
+
+/*#link a {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 1rem;
+	border: solid blue; 
+	text-decoration: none;
+	transition: all 0.2s linear;
+	color: red;
+}
+
+#link a:hover {
+	color: white;
+	background-color: black;
+	background: fixed url();
+} */
+
+/*#link p {
+	color: black;
+	font-family: arial sans-serif;
+	line-height: 1rem;
+}*/
+
+.more {
+	background-color: black;
+	border: #00f outset .25rem;
+	padding: .25rem;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-radius: 0.15rem;
+}
+
+#warning {
+	background-color: #f00;
+	padding: .5rem;
+	color: #fff;
+}
+
+.btn {
+	display: inline-block;
+	background-color: orange;
+	border: #ddd outset .5rem;
+	padding: .25rem;
+	margin: .25rem;
+	cursor: pointer;
+}
+
+
+#test {
+	display: flex;
+	justify-content: space-between;
+}
+
+.testart {
+	width: 30%;
+}
+
+.testart video {
+	width: 100%;
+}
+
+#testimony>h1 {
+	text-align: center;
+	padding: 1rem 0;
+}
+
+
+#foot {
+	background-color: black;
+	color: white;
+}
+
+#foot ul {
+	list-style: none;
+	padding: 0;
+}
+
+#foot>ul {
+	display: flex;
+	justify-content: center;
+}
+
+#foot>ul>li {
+	margin: 1rem 0;
+	padding: 0 2rem;
+	border-right: white dotted .1rem;
+}
+
+#foot>ul>li:last-child {
+	border-right: none;
+}
+
+#register>form {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#register label {
+	width: 33%;
+	font-weight: bold;
+	text-align: right;
+}
+
+#register input {
+	width: 67%;
+}
+
+.rounded:hover {
+	transform: rotate(-360deg) scale(1.5);
+	transition: 1s;
+}
+
+@keyframes clignote {
+	from {
+		background-color: red;
+		color: white;
+	}
+	15% {
+		background-color: orange;
+		color: white;
+	}
+	50% {
+		background-color: yellow;
+		color: black;
+	}
+	85% {
+		background-color: orange;
+		color: white;
+	}
+	to {
+		background-color: red;
+		color: white;
+	}
+}
+
+#warning {
+	animation: clignote 3s linear infinite;
+}
+
+/*form 60% largeur, centré
+labels : gras, alignés à droite et largeur de 30%
+input (sauf checkbox radio): largeur de 70%, au focus : couleur fond au choix; */
+
